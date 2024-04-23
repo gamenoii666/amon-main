@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class Snap : MonoBehaviour
@@ -13,28 +14,39 @@ public class Snap : MonoBehaviour
     public bool isPartCorrect = false;
     float countTime = 0f;
     public bool iSTime;
+   
+ 
+   
 
     // Start is called before the first frame update
     public int Score = 0;
+
+
     void Start()
     {
 
     }
 
+    
     // Update is called once per frame
     void Update()
     {
-        
+    
+       
     }
+   
+
+    
 
 
     private void OnTriggerStay(Collider other)
     {
         if (other.gameObject.CompareTag("Part"))
         {
-
+              
             other.gameObject.transform.position = transform.position;
             other.gameObject.transform.rotation = transform.rotation;
+            
 
             if (other.gameObject.name == _NamePartSnap)
             {

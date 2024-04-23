@@ -8,7 +8,7 @@ public class ObjectController : MonoBehaviour
     public void Object1Btn()
     {
         Debug.Log("Game");
-        SceneManager.LoadScene("MainGame");
+        SceneManager.LoadScene("MainGame1");
 
     }
 

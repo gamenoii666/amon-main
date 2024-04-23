@@ -14,24 +14,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scene/Inventory.unity
     guid: 5cffb3b789d9782409c42f9d871f6549
-  - enabled: 1
-    path: Assets/Scene/MainGame.unity
-    guid: 65894f772c20d2c44bd6f589c3ca79f2
   - enabled: 0
+    path: Assets/Scene/MainGame1.unity
+    guid: 65894f772c20d2c44bd6f589c3ca79f2
+  - enabled: 1
     path: Assets/Scene/MainGame2.unity
-    guid: 2071d936f3ac78447af8d53918c64483
+    guid: 33e45f42ccaa19244a2d47d51d2bbb1a
   - enabled: 0
     path: Assets/Scene/MainGame3.unity
-    guid: 99545ca3d709ce44e87bd7753c853635
-  - enabled: 0
-    path: Assets/Scene/MainGame4.unity
-    guid: 60da9cb4360e9354fa6784863d8d427b
-  - enabled: 0
-    path: Assets/Scene/MainGame5.unity
-    guid: 93c5b69fe69fedf42aa4f194285bb173
-  - enabled: 0
-    path: Assets/Scene/GameOver.unity
-    guid: 3dd58c9283593f24d8169bc11cbbfe32
+    guid: 185f16299eb080642be8efdaf6bfff8f
   - enabled: 0
     path: Assets/Samples/Meta XR Interaction SDK OVR Samples/62.0.0/Example Scenes/SnapExamples.unity
     guid: 01ca63189b69e00488487d660224a315
@@ -86,19 +77,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Samples/Meta XR Interaction SDK OVR Samples/62.0.0/Example Scenes/TouchGrabExamples.unity
     guid: ade7d3882b4495145a8fe79f5624beab
-  - enabled: 0
-    path: Assets/Scene/Scenes.unity
-    guid: 7e31cf4daf2ffed4bba3a5d05688f4d9
-  - enabled: 0
-    path: Assets/Scene/Leaderboard.unity
-    guid: 3441f45c9720cd64ab8d8057cb8499c5
-  - enabled: 0
-    path: Assets/Scene/MainMenu 1.unity
-    guid: 00aad7d306116f24c9a55db577c7214c
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 8c0030b4b5984e7439a553df0cdd7dd2,
       type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: ff6fa97cb0ac3bb4b85c39f1db4a0f6a,
       type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: abe5d4c6390c70b438750d3c82121457,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 51fc385c9cb40834ba1fdef56e23ccfc,
       type: 2}
